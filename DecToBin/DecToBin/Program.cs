@@ -12,11 +12,11 @@ namespace ConsoleApplication1
             Console.Write("Decimal number: ");
             var n = int.Parse(Console.ReadLine());
 
-            long k = 1, s = 0;
+            long a = 1, s = 0;
 
             while (n > 0) {
-                s += (n % 2) * k;
-                k *= 10;
+                s += (n % 2) * a;
+                a *= 10;
                 n /= 2;
             }
 
