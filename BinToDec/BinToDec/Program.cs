@@ -12,12 +12,12 @@ namespace ConsoleApplication1
             Console.Write("Binary number: ");
             var n = int.Parse(Console.ReadLine());
 
-            double k, p = 0, s = 0;
+            double a, b = 0, s = 0;
 
             while (n > 0) {
-                k = Math.Pow(2, p);
-                s += (n % 10) * k;
-                p += 1;
+                a = Math.Pow(2, b);
+                s += (n % 10) * a;
+                b += 1;
                 n /= 10;
             }
 
