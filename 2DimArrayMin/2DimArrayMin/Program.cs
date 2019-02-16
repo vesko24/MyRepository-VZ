@@ -21,6 +21,7 @@ namespace ConsoleApplication1
 
             for (int i = 0; i < n; i++) {
                 b = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                
                 for (int j = 0; j < m; j++) {
                     a[i, j] = b[j];
                 }
