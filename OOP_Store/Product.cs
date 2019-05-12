@@ -7,10 +7,10 @@ namespace ConsoleApplication1
 {
     class Product
     {
-        protected string name;
-        protected string barcode;
-        protected double price;
-        protected double quantity;
+        private string name;
+        private string barcode;
+        private double price;
+        private double quantity;
 
         public Product(string barcode, string name, double price, double quantity) {
             this.name = name;
